@@ -6,7 +6,7 @@ _Document your day with a simple VoiceMemo and a prompted guide!_
 ![Static Badge](https://img.shields.io/badge/platform-iOS%20iPadOS%20-orange)
 ![Static Badge](https://img.shields.io/badge/built%20with-SwiftUI-lightblue)
 
-![Voz](Assets/img)
+![Voz](Assets/img2)
 
 
 
