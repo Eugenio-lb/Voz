@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CC4B0B632D1310C6007C3253 /* Build configuration list for PBXProject "Voz_0.1" */;
+			buildConfigurationList = CC4B0B632D1310C6007C3253 /* Build configuration list for PBXProject "Voz" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC4B0B632D1310C6007C3253 /* Build configuration list for PBXProject "Voz_0.1" */ = {
+		CC4B0B632D1310C6007C3253 /* Build configuration list for PBXProject "Voz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC4B0B762D1310C7007C3253 /* Debug */,
