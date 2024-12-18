@@ -9,8 +9,8 @@ _Document your day with a simple VoiceMemo and a prompted guide!_
 
 ## Features
 - [x] Record a VoiceMemo answering the daily question.
-- [ ] Get a history of your VoiceMemos.
-- [ ] Replay your memos to revisit your past days.
+- [x] Get a history of your VoiceMemos.
+- [x] Replay your memos to revisit your past days.
 
 ## Frameworks
 - SwiftUI
