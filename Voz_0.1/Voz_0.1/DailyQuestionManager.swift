@@ -10,7 +10,7 @@ import UserNotifications
 
 class DailyQuestionManager{
     // Where the daily question will be stored in
-    let dailyQuestion = "How are you feeling today"
+    let dailyQuestion = "How are you feeling today?"
     
     private let answeredKey = "answeredDateKey"
     

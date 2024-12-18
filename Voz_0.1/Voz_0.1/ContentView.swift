@@ -12,17 +12,21 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text(dailyQuestionManager.dailyQuestion)
-                .font(.title)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 25)
+            
             
             if dailyQuestionManager.hasAnsweredToday(){
                 Text("You have already answered today's question.")
-                    .foregroundColor(.red)
-                    .padding()
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 25)
             }else {
+                
+                Text(dailyQuestionManager.dailyQuestion)
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 25)
                 
                 Button(action: {
                     if isRecording {

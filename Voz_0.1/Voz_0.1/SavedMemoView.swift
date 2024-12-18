@@ -10,6 +10,8 @@ import SwiftUI
 struct SavedMemoView: View {
     @ObservedObject var memoManager = MemoManager()
     let audioManager = AudioManager()
+    let dailyQuestionManager = DailyQuestionManager()
+
     
     var body: some View {
         NavigationView{
@@ -17,10 +19,10 @@ struct SavedMemoView: View {
                 ForEach(memoManager.memos) { memo in
                     HStack{
                         VStack(alignment: .leading){
-                            Text("Recorded on:")
+                            Text(formattedDate(memo.date))
                                 .font(.caption)
                                 .foregroundColor(.gray)
-                            Text(formattedDate(memo.date))
+                            Text(dailyQuestionManager.dailyQuestion)
                                 .fontWeight(.medium)
                         }
                         
